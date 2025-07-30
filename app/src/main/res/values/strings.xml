@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Stresslezz</string>
+    <string name="app_title">Alarm Bangun Pagi (testing)</string>
+    <string name="alarm_title">Alarm Jam 5 Pagi</string>
+    <string name="alarm_description">Aplikasi akan terbuka otomatis dengan 4 tugas wajib</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="instruction">Pastikan:\n1. Tidak ada battery optimization\n2. Izin alarm diaktifkan\n3. Aplikasi tetap berjalan di background</string>
+    <string name="countdown_text">%1$d detik</string>
+    <string name="logo_desc">Alarm app logo</string>
+
+</resources>
