@@ -8,8 +8,8 @@ iya bang, ini open source
    File → New → Import Project terus
    Pilih folder root project (yang ada settings.gradle di dalemnya)
 3. **Confguration**:
-   Tunggu Gradle sync selesai
-   File → Project Structure → SDK Location → Pilih JDK 17
+   Tunggu Gradle sync selesai.
+   terus Build → Make Project → Tunggu selesai
 4. **Coba liat aplikasinya**:
    Test make emulator dari android studionya
 
