@@ -5,10 +5,13 @@ iya bang, ini open source
    ```bash
    git clone https://github.com/username/Stresslezz.git
 2. **Buka di Android Studio**:
-   File → Open → Pilih folder Stresslezz (atau folder yg lu buat)
-   Tunggu Gradle sync selesai (lihat progress bar bawah)
-3. **Coba liat aplikasinya**:
-   Test make emulator dari android studionya atau apapun yang menting jalan.
+   File → New → Import Project
+   Pilih folder root project (yang ada settings.gradle di dalemnya)
+3. **Confguration**:
+   Tunggu Gradle sync selesai
+   File → Project Structure → SDK Location → Pilih JDK 17
+4. **Coba liat aplikasinya**:
+   Test make emulator dari android studionya
 
 ## Cara run di android gmn? 🤔
 1. **Build APK**:
@@ -26,4 +29,4 @@ iya bang, ini open source
 
 ![Home Screen](https://i.imgur.com/1uVATuK.png)
 
-UInya modif kalo mau yaa, di bagian layout ada file xml
+UInya tinggal dimodif kalo mau, di bagian layout ada file xml
