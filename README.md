@@ -5,7 +5,7 @@ iya bang, ini open source
    ```bash
    git clone https://github.com/username/Stresslezz.git
 2. **Buka di Android Studio**:
-   File → New → Import Project
+   File → New → Import Project \n
    Pilih folder root project (yang ada settings.gradle di dalemnya)
 3. **Confguration**:
    Tunggu Gradle sync selesai
