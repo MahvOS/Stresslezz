@@ -60,6 +60,10 @@
 
         <activity
             android:name=".StepActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:exported="false"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"></activity>
 
 

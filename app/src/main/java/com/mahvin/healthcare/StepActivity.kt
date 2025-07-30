@@ -1,5 +1,6 @@
 package com.mahvin.stresslezz
 
+import android.content.Intent
 import android.graphics.Color
 import android.content.res.ColorStateList
 import android.media.MediaPlayer
@@ -29,16 +30,18 @@ class StepActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityStepBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        selectedTime = intent.getStringExtra("time")?.uppercase() ?: "PAGI"
+        selectedCopingMode = intent.getStringExtra("mode")?.uppercase() ?: "CEMAS"
+        Log.d("StepDebug", "Data Intent - Time: $selectedTime, Mode: $selectedCopingMode")
+        binding.root.post {
+            applyTimeBasedColors(selectedTime)
+            loadAndDisplaySteps()
+        }
         setupWindowFlags()
 
         initMediaPlayer()
-
-        selectedTime = intent.getStringExtra("time")?.uppercase() ?: "PAGI"
-        selectedCopingMode = intent.getStringExtra("mode")?.uppercase() ?: "CEMAS"
 
         applyTimeBasedColors(selectedTime)
 
@@ -48,6 +51,7 @@ class StepActivity : AppCompatActivity() {
 
         setupBackPressHandler()
     }
+    // tes
 
     private fun setupWindowFlags() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {

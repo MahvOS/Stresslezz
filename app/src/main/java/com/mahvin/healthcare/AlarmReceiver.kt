@@ -23,8 +23,8 @@ class AlarmReceiver : BroadcastReceiver() {
     @SuppressLint("ScheduleExactAlarm")
     override fun onReceive(context: Context, intent: Intent?) {
 
-        val selectedTime = intent?.getStringExtra("selected_time") ?: "PAGI" // Default ke PAGI
-        val selectedCopingMode = intent?.getStringExtra("selected_coping_mode") ?: "CEMAS" // Default ke CEMAS
+        val selectedTime = intent?.getStringExtra("selected_time") ?: "PAGI"
+        val selectedCopingMode = intent?.getStringExtra("selected_coping_mode") ?: "CEMAS"
         val triggeredRequestCode = intent?.getIntExtra("requestCode", 0) ?: 0
 
         Log.d("AlarmReceiver", "Alarm dipicu! Waktu: $selectedTime, Mode: $selectedCopingMode, Triggered Request Code: $triggeredRequestCode")
@@ -49,7 +49,7 @@ class AlarmReceiver : BroadcastReceiver() {
         }
 
         val fullScreenPending = PendingIntent.getActivity(
-            context, triggeredRequestCode + 1000, activityIntent, // Gunakan requestCode dari pemicu + 1000 agar unik
+            context, triggeredRequestCode + 1000, activityIntent,
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
@@ -86,19 +86,18 @@ class AlarmReceiver : BroadcastReceiver() {
                 "PAGI" -> {
                     set(Calendar.HOUR_OF_DAY, 5)
                     set(Calendar.MINUTE, 0)
+                    add(Calendar.DATE, 1)
                 }
                 "MALAM" -> {
                     set(Calendar.HOUR_OF_DAY, 20)
                     set(Calendar.MINUTE, 0)
-                }
-                else -> {
-                    set(Calendar.HOUR_OF_DAY, 5)
-                    set(Calendar.MINUTE, 0)
+                    if (get(Calendar.HOUR_OF_DAY) >= 20) {
+                        add(Calendar.DATE, 1)
+                    }
                 }
             }
             set(Calendar.SECOND, 0)
             set(Calendar.MILLISECOND, 0)
-            add(Calendar.DATE, 1)
         }
 
         val nextAlarmRequestCode = when (selectedTime) {
