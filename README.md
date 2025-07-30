@@ -24,5 +24,5 @@ iya bang, ini open source
 
 **📌 Contoh Tampilan di Android Studio:**  
 
-![Home Screen](https://imgur.com/a/XbcQxF8)
+![Home Screen](https://i.imgur.com/1uVATuK.png)
 
