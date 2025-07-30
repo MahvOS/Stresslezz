@@ -26,3 +26,4 @@ iya bang, ini open source
 
 ![Home Screen](https://i.imgur.com/1uVATuK.png)
 
+UInya modif kalo mau yaa, di bagian layout ada file xml
