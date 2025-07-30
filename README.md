@@ -1,4 +1,4 @@
-ye it is open source 
+iya bang, ini open source
 
 ## Installation Guide.. or whtever lmao
 1. **Clone Repository**:
@@ -24,5 +24,5 @@ ye it is open source
 
 **📌 Contoh Tampilan di Android Studio:**  
 
+![Home Screen]([https://i.imgur.com/XYZ123.png](https://imgur.com/a/XbcQxF8))
 
-File ini bisa langsung kamu taruh di **root folder project** (sejajar dengan `app/` dan `gradle/`).
