@@ -5,7 +5,7 @@ iya bang, ini open source
    ```bash
    git clone https://github.com/username/Stresslezz.git
 2. **Buka di Android Studio**:
-   File → New → Import Project \n
+   File → New → Import Project terus
    Pilih folder root project (yang ada settings.gradle di dalemnya)
 3. **Confguration**:
    Tunggu Gradle sync selesai
@@ -15,9 +15,9 @@ iya bang, ini open source
 
 ## Cara run di android gmn? 🤔
 1. **Build APK**:
-   Build → Generate Signed Bundle / APK terus
+   Build → Generate Signed Bundle / APK
    Pilih APK 
-   terus hasilnya biasanya ada di app/build/outputs/apk/debug/app-debug.apk
+   hasilnya biasanya ada di app/build/outputs/apk/debug/app-debug.apk
    
 ### **Catatan Khusus**  
 - **Jangan commit** `local.properties` (file auto-generate)  
