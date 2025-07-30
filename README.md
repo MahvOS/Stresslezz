@@ -15,9 +15,9 @@ iya bang, ini open source
 
 ## Cara run di android gmn? 🤔
 1. **Build APK**:
-   Build → Generate Signed Bundle / APK
+   Build → Generate Signed Bundle / APK terus
    Pilih APK 
-   hasilnya biasanya ada di app/build/outputs/apk/debug/app-debug.apk
+   terus hasilnya biasanya ada di app/build/outputs/apk/debug/app-debug.apk
    
 ### **Catatan Khusus**  
 - **Jangan commit** `local.properties` (file auto-generate)  
