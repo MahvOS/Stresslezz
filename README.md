@@ -1,4 +1,4 @@
-iya bang, ini open source
+iya bang, ini open source\
 huge shout out to [Shan Ahmad](https://www.instagram.com/urshann_) 🤜
 
 ## Installation Guide.. or whtever lmao
