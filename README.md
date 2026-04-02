@@ -1,5 +1,4 @@
-iya bang, ini open source.\
-huge shout out to [Shan Ahmad](https://www.instagram.com/urshann_) 🤜
+ [Shan Ahmad](https://www.instagram.com/urshann_) 
 
 ## Installation Guide.. or whtever lmao
 1. **Clone Repository**:
@@ -14,7 +13,7 @@ huge shout out to [Shan Ahmad](https://www.instagram.com/urshann_) 🤜
 4. **Coba liat aplikasinya**:
    Test make emulator dari android studionya
 
-## Cara run di android gmn? 🤔
+## Cara run di android gmn?
 1. **Build APK**:
    Build → Generate Signed Bundle / APK terus
    Pilih APK 
@@ -26,7 +25,7 @@ huge shout out to [Shan Ahmad](https://www.instagram.com/urshann_) 🤜
 
 ---
 
-**📌 Contoh Tampilan di Android Studio:**  
+**Contoh Tampilan di Android Studio:**  
 
 ![Home Screen](https://i.imgur.com/1uVATuK.png)
 
