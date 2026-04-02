@@ -1,6 +1,5 @@
  [Shan Ahmad](https://www.instagram.com/urshann_) 
 
-## Installation Guide.. or whtever lmao
 1. **Clone Repository**:
    ```bash
    git clone https://github.com/username/Stresslezz.git
