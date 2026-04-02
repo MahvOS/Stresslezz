@@ -1,4 +1,4 @@
- [Shan Ahmad](https://www.instagram.com/urshann_) 
+ [p](https://www.instagram.com/urshann_) 
 
 1. **Clone Repository**:
    ```bash
